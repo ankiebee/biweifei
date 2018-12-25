@@ -21,5 +21,5 @@
 <!-- 	<bean id="sid" class="org.n3r.idworker.Sid"></bean> -->
 	
 	<!-- 引入同文件夹下的redis属性配置文件 -->
-    <import resource="classpath*:/redis/redis-config.xml"/>
+<!--     <import resource="classpath*:/redis/redis-config.xml"/> -->
 </beans>
