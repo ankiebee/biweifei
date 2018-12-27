@@ -40,6 +40,9 @@
 	
 	<!-- 配置扫描包，加载mapper代理对象 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+	    <!-- 注入sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!-- 给出需要扫描Dao接口包 -->
 		<property name="basePackage" value="com.ankie.mapper"></property>
 	</bean>
 
