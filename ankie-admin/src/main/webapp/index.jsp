@@ -23,7 +23,7 @@
 	href="images/splash/splash-screen_403x.png" />
 
 <!-- Page Title -->
-<title>乐居</title>
+<title>绩效</title>
 
 <!-- Stylesheet Load -->
 <link href="styles/style.css" rel="stylesheet" type="text/css">
