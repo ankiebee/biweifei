@@ -276,27 +276,27 @@ $(document).ready(function(){
 	//////////////////////////
 	//Image Gallery Colorbox//
 	//////////////////////////	
-	$("#gallery-filtralbe li a").colorbox({
-	 	transition:"fade",
-		scalePhotos:"true",
-		maxWidth:"100%",
-		maxHeight:"100%",
-		arrowKey:"false"
-	});
-	
-	$(".portfolio-item-full-width a").colorbox({
-	 	transition:"fade",
-		scalePhotos:"true",
-		maxWidth:"100%",
-		maxHeight:"100%"
-	});
-	
-	$(".portfolio-item-thumb a").colorbox({
-	 	transition:"fade",
-		scalePhotos:"true",
-		maxWidth:"100%",
-		maxHeight:"100%"
-	});
+//	$("#gallery-filtralbe li a").colorbox({
+//	 	transition:"fade",
+//		scalePhotos:"true",
+//		maxWidth:"100%",
+//		maxHeight:"100%",
+//		arrowKey:"false"
+//	});
+//	
+//	$(".portfolio-item-full-width a").colorbox({
+//	 	transition:"fade",
+//		scalePhotos:"true",
+//		maxWidth:"100%",
+//		maxHeight:"100%"
+//	});
+//	
+//	$(".portfolio-item-thumb a").colorbox({
+//	 	transition:"fade",
+//		scalePhotos:"true",
+//		maxWidth:"100%",
+//		maxHeight:"100%"
+//	});
 
 	/////////////////////////////////////////////////////////////////////////////
 	//Detect if iOS WebApp Engaged and permit navigation without deploying Safari

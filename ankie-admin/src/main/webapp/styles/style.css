@@ -11,7 +11,9 @@ body{
 }
 
 .content{
-	margin-top:15px;
+	margin-top:50px;
+	margin-bottom: 20px;
+	height: auto;
 }
 
 #tab-two{
@@ -57,7 +59,7 @@ body{
 }
 
 .navigation-icons{
-	width:270px;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 }
