@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="landing-logo">
+  <image style="width: 100px;height: 100px;" mode = "aspectFit" src="../../images/logo.png" ></image>
+</view>
+
+<view class="welcome-text">
+ <h3>欢迎您</h3>
+</view>
+
+
+<view class="navigation-icons">
+        <a href="" class="nav-icon icon-red home-nav"></a>
+        <a href="" class="nav-icon icon-blue about-nav"></a>
+        <a href="" class="nav-icon icon-magenta blog-nav"></a>
+        <a href="" class="nav-icon icon-dblue folio-nav"></a>
+</view>

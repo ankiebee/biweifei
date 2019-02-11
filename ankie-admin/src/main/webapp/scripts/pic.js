@@ -1,6 +1,6 @@
 window.onload = function() {
 	var swiper = new Swiper('.swiper-container', {
-		autoplay : 3000,
+		autoplay : 300,
 		speed : 1000,
 		autoplayDisableOnInteraction : false,
 		loop : true,
@@ -12,11 +12,6 @@ window.onload = function() {
 		nextButton : '.swiper-button-next',
 		onInit : function(swiper) {
 			swiper.slides[2].className = "swiper-slide swiper-slide-active";// 第一次打开不要动画
-		},
-		breakpoints : {
-			668 : {
-				slidesPerView : 1,
-			}
 		}
 	});
 }

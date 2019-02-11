@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/item/item",
+    "pages/list/list",
+    "pages/cart/cart",
+    "pages/addCgi/addCgi",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "魔域购物",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+        "color": "#5f616c",
+        "selectedColor": "#f13030",
+        "backgroundColor": "#F6F6F6",
+        "borderStyle": "black",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./icons/home.png",
+                "selectedIconPath": "./icons/homeSelected.png"
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "text": "拼团",
+                "iconPath": "./icons/group.png",
+                "selectedIconPath": "./icons/groupSelected.png"
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "text": "订单",
+                "iconPath": "./icons/cart.png",
+                "selectedIconPath": "./icons/cartSelected.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "./icons/mine.png",
+                "selectedIconPath": "./icons/mineSelected.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}

@@ -1,0 +1,103 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.landing-logo{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+.welcome-text{
+  font-family:'Raleway', sans-serif;
+	font-size:20px;
+	color:#535353;
+	font-weight:300;
+	text-align:center;
+	text-transform:uppercase;
+	margin-top:20px;
+}
+
+.navigation-icons{
+	width:270px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav-icon{
+	float:left;
+	border-radius:50px;
+	width:60px;
+	height:60px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:25px;
+}
+
+
+.icon-red{
+	background-color:#fc5858;
+}
+
+.icon-blue{
+	background-color:#259780;
+}
+
+.icon-dblue{
+	background-color:#2f95bf;
+}
+
+.icon-magenta{
+	background-color:#9b59b6;
+}
+
+.icon-green{
+	background-color:#2ecc71;
+}
+
+.icon-yellow{
+	background-color:#f1c40f;
+}
+.home-nav{
+	background-image:url(../../images/home/home.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
+
+.about-nav{
+	background-image:url(../../images/home/cog2.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
+
+.folio-nav{
+	background-image:url(../../images/home/image2.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
+
+.blog-nav{
+	background-image:url(../../images/home/pencil.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
+
+.video-nav{
+	background-image:url(../../images/home/film.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
+
+.mail-nav{
+	background-image:url(../../images/home/wx.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+}
