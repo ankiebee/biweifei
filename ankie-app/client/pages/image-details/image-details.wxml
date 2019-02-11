@@ -1,2 +1,3 @@
-<!--pages/image-details/image-details.wxml-->
-<text>pages/image-details/image-details.wxml</text>
+<scroll-view class="image-group" scroll-x="true">
+        <image src="{{item}}" data-index='{{index}}' bindtap='previewImg' wx:for='{{imgArr}}'></image>
+</scroll-view>
